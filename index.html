@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+         * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            }
+            .container{
+                margin: 0 auto;
+                width: 100%;
+
+
+            }
+            header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: aqua;
+            height: 120px;
+            }
+            
+            
+            
+            .logo{
+                position: relative;
+                display: block;
+                border-radius: 20px;
+                margin-right: auto;
+                border: 3px solid whitesmoke;
+                transform: translate(-50%, -50%) ;
+                width: 150px;
+                height: 100px;
+                animation-name: simple;
+                animation-duration: 3s;
+                animation-delay: 1s;
+                margin-top: 100px;
+
+                
+
+                
+                }
+               
+                
+                @keyframes simple {
+            0%   {background-color:red; right:0px; top:0px;}
+            25%  {background-color:yellow; right:200  0px; top:0px;}
+            50%  {background-color:blue; right:200px; top:200px;}
+            75%  {background-color:green; right:0px; top:200px;}
+            100% {background-color:red; right:0px; top:0px;}
+}
+           
+            a{
+                color: inherit;
+            }
+            nav{
+                width: 100%;
+                height: 5vh;
+                padding: 0.8%;
+                position: relative;
+                justify-content: space-between;
+            }
+            ul{
+                list-style: none;
+                display: block;
+                position: relative;
+            }
+            nav ul li{
+                display: inline-block;
+                margin: 2px;
+                color: black;
+                background-color: lightcoral;
+                padding: 10px;
+                width: 17%;
+                text-align: center; 
+                border-radius: 4px;
+            }
+            nav ul li:hover{
+                background-color: whitesmoke;
+            }
+            
+            
+            .slika h1{
+                margin-top: 40px ;
+                text-align: left;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: gold;
+                margin-left: 50px;
+                border-bottom: 3px solid red;
+                border-radius: 15px;
+                padding: 6px;
+                margin-right: 20px;
+            }
+            
+            .slika h1:hover{
+                background-color: darkcyan;
+                color: red;
+            }
+
+
+
+            
+           
+            .slika img{
+                margin-right: 20px;
+                margin-top: 30px;
+                float: right;
+                width: 500px;
+                height: 350px;
+                margin-left: 10px;
+                padding: 10px;
+                border: 2px solid red;
+                border-radius: 10px;
+                background-color: aqua;
+            }
+            .slika img:hover{
+                background-color: blue;
+
+            }
+            .slika p{
+                margin-top: 30px;
+                margin-left: 80px;
+                font-size: 17px;
+                text-align: justify;
+
+            
+            }
+            .overnu h2{
+                margin-top: 80px;
+                text-align: left;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: gold;
+                margin-left: 60px;
+                border-bottom: 3px solid red;
+                border-radius: 15px;
+                padding: 6px;
+                margin-right: 20px;
+                
+
+            }
+            .overnu ul li{
+                margin-left: 150px;
+                margin-top: 20px;
+                list-style: circle;
+                font-size: 20px;
+
+            }
+            
+            .overnu p{
+                margin-left: 150px;
+                text-align: justify;
+                font-size: 17px;
+                margin-top: 20px;
+            }
+            .onama img{
+                margin-left: 100px;
+                float: left;
+                width: 500px;
+                height: 350px;
+                padding: 10px;
+                border: 2px solid red;
+                border-radius: 10px;
+                background-color: aqua;
+                margin-top: 50px;
+                margin-right: 50px;
+            }
+            .onama img:hover{
+                background-color: blue;
+            }
+            
+            
+           .overnu h2:hover{
+            background-color: darkcyan;
+                color: red; 
+           }
+           .onama h2{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: gold;
+            margin-left: 500px;
+            border-bottom: 3px solid red;
+            border-radius: 15px;
+            padding: 6px;
+            margin-right: 500px;
+            margin-top: 50px;
+
+           }
+           .onama h2:hover{
+            background-color: darkcyan;
+                color: yellow; 
+
+
+           }
+           .onama p{
+            text-align: justify;
+            margin-top: 50px;
+            font-size: 17px;
+           }
+           .slika  a{
+                font-size: 15px;
+                margin-left: 20px;
+            text-decoration: underline 2px blue;
+
+           }
+           .slika a:hover{
+            color: black;
+            font-size: 25px;
+           }
+           .overnu a{
+            font-size: 15px;
+            margin-left: 20px;
+            text-decoration: underline 2px blue;
+           }
+           .overnu a:hover{
+            color: black;
+            font-size: 25px;
+           }
+           .onama a{
+            text-decoration: underline 2px blue;
+           }
+           .onama a:hover{
+
+            font-size: 30pt;
+           }
+           .onama h2:hover{
+            border-bottom: 8px solid red;
+           }
+           .onama p span{
+            background-color: red;
+           }
+           
+           
+            
+            
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+           
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="">O Vernu</a></li>
+                    <li><a href="">Vern Sport</a></li>
+                    <li><a href="">O nama</a></li>
+
+
+                </ul>
+            </nav>
+                <img  class="logo" src="vern.jpg" alt="">
+                
+
+        </header>
+    
+        <div class="slika">
+        <h1 id="sport"> VERN' Sport <a href="https://vern.hr/sport/">VernSport.hr</a></h1>
+
+        <img src="futsal.jpg" alt="">
+
+
+        <p >VERN' Sport je sportska sekcija VERN' Sveučilišta u Zagrebu, koja pruža studentima priliku da se bave različitim sportskim aktivnostima, promovirajući zdrav način života i timski duh. <br> Organiziraju se razni sportski događaji i natjecanja, uključujući turnire u nogometu, košarci, odbojci i drugim sportovima.<br> Osim natjecateljskih aktivnosti, VERN' Sport također nudi rekreativne programe i sportske radionice koje omogućavaju studentima svih razina fizičke spremnosti da sudjeluju.</p><br>
+        <p>VERN' Sport potiče studente na aktivno sudjelovanje u sportu kao dio njihovog sveučilišnog života, čime se doprinosi njihovom fizičkom i mentalnom zdravlju. Također, sekcija surađuje s drugim sportskim klubovima i sveučilištima, čime studentima omogućava sudjelovanje u međusveučilišnim natjecanjima i širenje mreže poznanstava.</p>
+        <p>Uz sportske aktivnosti, VERN' Sport organizira i edukativne programe o važnosti tjelesne aktivnosti i zdrave prehrane, nastojeći razviti sveobuhvatan pristup zdravom životu među studentima. Sve ove aktivnosti čine VERN' Sport važnim dijelom sveučilišne zajednice, promovirajući aktivan i zdrav način života te pružajući studentima priliku za druženje i razvoj novih vještina.</p><br>
+        <p> VERN' Sport također organizira rekreativne programe i sportske radionice koje omogućavaju studentima svih razina fizičke spremnosti da sudjeluju. Pored natjecateljskih aktivnosti, VERN' Sport promovira zajedništvo i socijalizaciju među studentima kroz zajedničke sportske događaje i timske treninge.</p>
+        </div>
+    
+        <div class="overnu">
+        <h2>O Vernu<a href="https://vern.hr/o-vernu/">O Vernu</a> </h2>
+    <ul>
+        <li ><b><u><i>Osnovan 1990. godine u Zagrebu.</i></u></b></li>
+        <p>VERN' Sveučilište osnovano je 1990. godine u Zagrebu. Kao prvo privatno sveučilište u Hrvatskoj,<br> VERN' je postao pionir u pružanju suvremenog obrazovanja usmjerenog na tržišne potrebe. </p>
+        <li ><b><u><i>Programi: Preddiplomski, diplomski i stručni studiji u ekonomiji, menadžmentu, turizmu, računarstvu i komunikacijama.</i></u></b></li>
+        <p>VERN' Sveučilište nudi preddiplomske, diplomske i stručne studije u područjima ekonomije, menadžmenta, turizma, računarstva i komunikacija.<br> Ovi programi pružaju studentima temeljna znanja i praktične vještine potrebne za uspjeh u različitim industrijama.</p>
+        <li><b><u><i>Fokus: Praktična nastava i povezivanje s industrijom.</i></u></b></li>
+        <p>VERN' Sveučilište stavlja poseban fokus na praktičnu nastavu i povezivanje s industrijom. Kroz suradnju s poslovnim sektorom, studentima se pružaju prilike za stjecanje stvarnog radnog iskustva i mreže kontakata, što ih priprema za tržište rada.</p>
+        <li><b><u><i>Sportska Sekcija: VERN' Sport nudi sportske aktivnosti i natjecanja za studente.</i></u></b></li>
+        <p>Sportska sekcija VERN' Sport organizira razne sportske aktivnosti i natjecanja za studente, potičući zdrav način života i timski duh. Studentima se nudi prilika za sudjelovanje u sportovima poput nogometa,<br> košarke i odbojke, što doprinosi njihovom fizičkom i mentalnom zdravlju.</p>
+    </ul>
+        </div>
+
+    <div class="onama">
+        <h2> <a href="https://vern.hr/o-vernu/povijest-i-razvoj/">O nama</a> </h2>
+
+        <img  src="prez.jpg" alt="">
+        <p>VERN' Sveučilište, osnovano 1990. godine u Zagrebu, prvo je privatno sveučilište u Hrvatskoj koje pruža suvremeno i tržišno orijentirano obrazovanje. <br>Nudimo preddiplomske, diplomske i stručne studije u područjima ekonomije, menadžmenta, turizma, računarstva i komunikacija.<br>Naš fokus na praktičnu nastavu i povezivanje s industrijom osigurava studentima vrijedno radno iskustvo i kontakte u poslovnom svijetu.<br> Sportska sekcija,<a href="#sport"><span>VERN' Sport</span></a> , organizira brojne sportske aktivnosti i natjecanja, potičući zdrav način života i timski duh među studentima.<br> Kroz sve naše aktivnosti, cilj nam je pripremiti studente za uspješnu karijeru i aktivno sudjelovanje u društvu.</p>
+        <p> Na VERN-u se također posebna pažnja posvećuje interdisciplinarnom pristupu učenju,<br> potičući studente na razmišljanje izvan okvira svojih specifičnih područja studija i razvijanje širokog spektra vještina.<br> Uz to, kontinuirano radimo na unapređenju kvalitete nastave i pružanju podrške studentima kroz različite oblike mentorstva i savjetovanja.<br> Naša misija je stvarati inspirativno okruženje u kojem studenti mogu rasti akademski, osobno i profesionalno.</p>
+
+    </div>
+    
+    </div>
+           
+       
+    </div>
+</div>
+
+    
+
+</body>
+</html>
